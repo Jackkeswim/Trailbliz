@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="description" content="Take The Path">
+        <meta name="keywords" content="TrailBliz">
+        <meta name="author" content="Gong Yee Wen, Chin En Hui, Khor Zi Yu">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="CSS/Styles.css">
+        <link rel="icon" href="Images/Trailbliz_Logo.png" type="image/png" sizes="32x32">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg shadow-sm py-3">
+            <div class="container col-12">
+                <a class="navbar-brand d-flex align-items-center fw-bold col-4" href="index.html">
+                    <img src="Images/Trailbliz_Logo.png" alt="Logo" style="height: 50px; margin-right: 10px;"> <!-- Logo with margin -->
+                    <div class="logoName"><img src="Images/Trailbliz_Text.png" alt="Logo" style="height: 35px; margin-right: 10px;"></div>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header bg-green">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                          <img src="Images/Trailbliz_Logo.png" alt="Logo" style="height: 30px; margin-right: 10px;"> <!-- Logo with margin -->
+                          <div class="logoName"><img src="Images/Trailbliz_Text.png" alt="Logo" style="height: 15px; margin-right: 10px;"></div>
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body col-">
+                    <ul class="navbar-nav ms-auto">
+    
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Explore.html">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Activities.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Picture-->
+        <section class="banner">
+            <div class="banner">
+                <img src="Images/Banner.jpg" alt="Banner" class="Contact-banner img-fluid w-100 vh-140" style="object-fit: cover;">
+                <div class="Contact-Container">
+                    
+                    <h2>Contact</h2>
+                    <h3>Trailbliz, your premier resource for hiking enthusiasts. 
+                        We offer detailed trail guides, expert reviews, and valuable tips 
+                        to help you explore stunning hiking destinations worldwide. 
+                        Join our community and elevate your outdoor adventures with us!
+                    </h3>
+                    
+                    <form>
+                        <label for="email">Enter Your Gmail....</label><br>
+                        <input type="email" id="email" name="email" /><br>
+                        <label for="content">Enter Your Feedback/Question:</label><br>
+                        <textarea id="content" name="content" rows="4"></textarea><br>
+                        <button type="submit" class="btn-send mt-2">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer col-12 py-3">
+            <p class="footer-word">&copy; Copyrighted by TrailBliz.com</p>
+        </footer>
+
+    </body>
+    <script src="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="Js/Toggle.js"></script>
+    <script src="Js/ForContact.js"></script>
+</html>
